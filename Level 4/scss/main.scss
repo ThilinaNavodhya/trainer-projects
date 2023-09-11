@@ -1,0 +1,65 @@
+$primary: #467AA9;
+$secondary:#EDF1F4;
+$circle:#6c757d;
+
+
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,  
+    "circle": $circle,  
+);
+
+
+@import'../node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+    font-family: 'Geologica', sans-serif;
+  
+}
+
+
+
+
+////// navbar /////
+.nav-logo{
+    width: 97px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  a:hover {
+    color: $primary;
+  }
+
+  a.nav-link {
+    color: #000;
+}
+
+a.nav-link:hover{
+    color: $primary;
+}
+
+
+a.nav-link.active.me-2 {
+    color: $primary;
+}
+
+
+// Section 2 web desing many ////
+.web-desing-image {
+    background-image: url(../img/Asset-11-4x.png);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.web-desing-text {
+    max-width: 410px;  
+}
+
+

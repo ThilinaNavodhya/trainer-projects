@@ -1,0 +1,175 @@
+ $primary: #98A4B4;
+ $secondary:#363E47;
+ $success:#D9E1E9;
+ $activeprimary:#49aed6;
+ $info:#467AA9;
+ $cardprimary:#E8ECEF;
+
+
+ $theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "activeprimary": $activeprimary,
+    "info": $info,
+    "cardprimary": $cardprimary,
+    
+
+ );
+
+@import'../node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: $secondary;
+}
+
+a {
+  text-decoration: none;
+}
+
+// section 1 //
+
+//   navbar //
+
+.a.new-link-color:active {
+    color: $activeprimary;
+}
+
+a.new-link-color:hover {
+    color:$activeprimary;
+
+}
+
+a.new-link-color {
+    text-decoration: none;
+    color:$secondary;
+}
+
+
+
+a.new-link-color:hover {
+    color:$activeprimary;
+}
+
+.nav-logo{
+    width: 84px;
+}
+
+
+a.nav-link.active.new-link-color {
+    color: rgb(0, 0, 0);
+}
+
+nav.scrolled-nav.shadow {
+  background: #ffffff;
+}
+
+// @media (max-width: 768px) {
+        
+//   nav.navbar.navbar-light.navbar-expand-md.py-3.fixed-top.navcolor {
+//     background-color: #ffffff;
+// }
+// } 
+
+// home section 2 //
+.section2-hometext {
+    margin-left: 102%;;
+}
+
+
+.section2-image {
+    background-image: url(../img/Image-1.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: -4%;
+}
+
+.section2-image-mob {
+    background-image: url(../img/Image-1-mob.png);
+    height: 440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: -4%;
+}
+
+
+
+
+@media (max-width: 1440px) {
+    
+    .section2-mq1 .section2-hometext {    
+      margin-left: 62%;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    
+    .section2-mq1 .section2-hometext {    
+      margin-left: 45%;
+    }
+  }
+
+  @media (max-width: 820px) {
+    
+    .section2-mq1 .section2-hometext {    
+      margin-left: 31%;
+    }
+  }
+
+
+  @media (max-width: 540px) {
+    
+    .section2-mq1 .section2-hometext {    
+      margin-left: 44%;
+    }
+  }
+
+
+  // section 3 progress bar
+  .progress-bar-color{
+    height: 5px;
+    border-radius: 0px;
+  }
+
+   // section 5 variations
+
+   .variations{
+    max-width: 372px;
+   }
+   
+
+   @media (max-width: 992px) {
+    .variations-mq1 .variations-matgin1 {    
+      padding: 2%;
+      padding-top: 0px;
+    }
+  }
+
+
+  @media (max-width: 425px) {
+    .variations-mq1 .variations {    
+      max-width: 256px;
+    }
+  }
+
+
+  /// section 5 variations ///
+  
+  .variations-link-color{
+    color: #ffffff;
+  }
+
+  .variations-text-width{
+    max-width:400px ;
+  }
+
+
+  // section 6 pink cards ///
+
+  .pink-cards-width{
+    max-width: 363px;
+  }

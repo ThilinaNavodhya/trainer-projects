@@ -1,0 +1,23 @@
+$primary: #262626;
+$secondary:#f7f7f7;
+$imgbordercolor:#eef8ff;
+$footerbordercolor:#6c757d;
+
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "imgbordercolor": $imgbordercolor,  
+    "footerbordercolor": $footerbordercolor,  
+    
+);
+
+@import'../node_modules/bootstrap/scss/bootstrap.scss';
+
+.body{
+    font-family: 'Marcellus', serif;
+}
+
+.nav-logo{
+    width: 97px;
+}

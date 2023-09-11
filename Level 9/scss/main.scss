@@ -1,0 +1,146 @@
+ $primary: #EEF2F4;
+ $secondary:#363E47;
+ $textprimary:#006eff;
+ $cardprimary:#0d0d1b;
+ 
+
+
+ $theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "textprimary": $textprimary,
+    "cardprimary": $cardprimary,
+    
+ );
+
+@import'../node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+  
+}
+
+a{text-decoration: none;
+}
+
+
+.variations-link-color{
+    color: #000000;
+}
+
+
+// section 1 //
+
+//   navbar //
+
+.nav-logo{
+    width: 84px;
+}
+
+.scrolled-nav{
+    background-color: #ffffff;
+}
+
+
+
+a.nav-link.navbar-link-color.active {
+    color: #000000;
+}
+
+.navbar-link-color:hover {
+    color: $textprimary;
+}
+
+@media (max-width: 992px) {
+        
+    nav.navbar.navbar-expand-md.py-3.fixed-top.navbarcolor {
+      background-color: #ffffff;
+  }
+  } 
+  
+
+// home //
+
+.banner-carousel{
+    height: 600px;
+    
+}
+
+.banner-text{
+    max-width: 435px;
+    
+}
+
+
+.home-button {
+    border-radius: 0%;
+    padding: 8px 35px 8px 35px;
+}
+
+
+
+
+//// carousel ///
+.buttons1{
+position: absolute;
+margin-left: -61px;
+margin-top: -315px;
+
+}
+
+
+.buttons2 {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -315px;
+}
+
+
+
+
+.card-icon{
+    max-width: 30px;
+}
+
+
+@media (max-width: 768px) {
+        
+    .carousel-mediaquery .buttons1 {
+        margin-left: 27px;
+    margin-top: -52px;
+  }
+
+  .carousel-mediaquery .buttons2 {
+    margin-left: -23px;
+    margin-top: -52px;
+}
+} 
+
+
+.there-are-many{
+max-width: 258px;
+}
+
+//// Lorem ipsum two buttons ////
+
+.Lorem-width{
+    max-width: 560px;
+}
+
+
+.Lorem-width-buttons{
+   border-radius: 0%;
+   padding: 8px 35px 8px 35px;
+}
+
+
+
+// map
+
+
+
+.footer-logo{
+max-width: 94px;
+}

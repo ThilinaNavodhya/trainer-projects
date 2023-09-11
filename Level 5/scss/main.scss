@@ -1,0 +1,121 @@
+$primary: #525A65;
+$secondary: #363D47;
+$textprimary: #E1E9f0;
+$hardprimary: #c4c4c4;
+
+
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "textprimary": $textprimary,
+    "hardprimary": $hardprimary,
+
+
+);
+
+@import'../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+    font-family: 'Geologica', sans-serif;
+    color: $textprimary;
+    background-color: $primary;
+}
+
+
+//////section 1 navbar //////
+
+
+.nav-logo {
+    width: 97px;
+}
+
+
+a.nav-link {
+    color: $textprimary;
+}
+
+a.nav-link:hover {
+    color: #41a3ca;
+}
+
+
+a.nav-link.active.nev-active {
+    color: #41a3ca;
+}
+
+
+// section 2 ///
+a {
+    text-decoration: none;
+    color: $textprimary;
+}
+
+a:hover {
+    color: #41a3ca;
+}
+
+// section 4 ///
+
+.section-four-width {
+    max-width: 760px
+}
+
+// section 5///
+.section-five-width {
+    max-width: 375px;
+}
+
+
+///// section 10 ////
+
+.owl-nav {
+    position: absolute;
+    margin-left: -52%;
+    font-size: 37px;
+
+}
+
+
+
+.owl-theme .owl-nav {
+    margin-top: -55px !important;
+}
+
+
+// footer ////
+
+@media (max-width: 764px) {
+
+    .footercard-mediaquery1 .footercard {
+        margin-top: -111%;
+
+    }
+}
+
+
+@media (max-width: 425px) {
+
+    .footercard-mediaquery1 .footercard {
+        margin-top: -143%;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .footercard-mediaquery1 .footercard {
+        margin-top: -164%;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .footercard-mediaquery1 .footercard {
+        margin-top: -192%;
+    }
+}
+
+
+.footercard {
+    margin-top: -246px;
+}
